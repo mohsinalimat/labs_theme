@@ -22,6 +22,8 @@ app_include_js = ["/assets/labs_theme/js/workspace.js"]
 # web_include_css = "/assets/labs_theme/css/labs_theme.css"
 # web_include_js = "/assets/labs_theme/js/labs_theme.js"
 
+app_include_css = ["/assets/labs_theme/css/login.css"]
+
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "labs_theme/public/scss/website"
 

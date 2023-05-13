@@ -1,62 +1,72 @@
-.navbar{
+.navbar {
     color: #ffffff !important;
     --text-color: #ffffff !important;
     /* background: linear-gradient(45deg, #030f29, #687592) !important */
-    background:#26475F
+    background: #26475F
 }
-.search-bar{
+
+.search-bar {
     --text-color: #000 !important;
 }
-.page-container{
-    background-color:#ecf0fa !important;
+
+.page-container {
+    background-color: #ecf0fa !important;
 }
-.modal-content > .modal-footer > .standard-actions > .btn-modal-secondary{
+
+/* .modal-content > .modal-footer > .standard-actions > .btn-modal-secondary{
     background-color: #26475f !important;
-}
-#navbar-search{
+} */
+#navbar-search {
     border-radius: 20px !important;
     /* background-color: #1f2940 !important; */
     background-color: #3c5a6f !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     color: white !important;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     --text-color: #000 !important;
 }
+
 .search-bar svg {
     stroke: #fff !important;
 }
+
 /* .icon{
     fill: #fff !important;
     stroke: #fff !important;
 } */
-.dropdown-notifications > .notifications-icon > .notifications-seen > .icon-md{
+.dropdown-notifications>.notifications-icon>.notifications-seen>.icon-md {
     fill: #dde3ea !important;
     stroke: #dde3ea !important;
-} 
-.sidebar-item-container > .desk-sidebar-item > .item-anchor > .sidebar-item-icon > .icon-md{
+}
+
+.sidebar-item-container>.desk-sidebar-item>.item-anchor>.sidebar-item-icon>.icon-md {
     fill: #dde3ea !important;
     stroke: #dde3ea !important;
-} 
+}
+
 .search-bar .awesomplete input::placeholder {
     color: #dde3ea !important;
 
-  }
-  /* <img style="width: 260px;position: fixed;height: 100%;" src="/assets/vpstwo/images/left-site.png"> */
-  .page-head {
+}
+
+/* <img style="width: 260px;position: fixed;height: 100%;" src="/assets/vpstwo/images/left-site.png"> */
+.page-head {
     border-bottom: 0px solid #eaeaea !important;
     background: transparent !important;
 }
+
 /* .page-title {
     --text-color: #fff !important;
 } */
-.page-head-content > .page-title > .sidebar-toggle-btn > .icon-md{
+.page-head-content>.page-title>.sidebar-toggle-btn>.icon-md {
     fill: #a3abb2 !important;
     stroke: #a3abb2 !important;
 }
 
-.sidebar-item-container .is-draggable >.standard-sidebar-item a:hover{
-    --text-color:#000000 !important;
+.sidebar-item-container .is-draggable>.standard-sidebar-item a:hover {
+    --text-color: #000000 !important;
 }
 
 
@@ -64,35 +74,43 @@
     /* --text-color: #fff !important; */
     --text-color: #000 !important;
 }
-.desk-sidebar .standard-sidebar-item.selected{
+
+.desk-sidebar .standard-sidebar-item.selected {
     background-color: #26475f !important;
     --text-color: #fff !important;
 }
-.desk-sidebar .standard-sidebar-item:hover{
+
+.desk-sidebar .standard-sidebar-item:hover {
     /* background-color: #00 !important; */
     /* --text-color: #000000 !important; */
     background-color: #26475f !important;
-    --text-color: #fff !important;    
+    --text-color: #fff !important;
 
 }
-[data-page-route=Workspaces] .layout-main-section{
+
+[data-page-route=Workspaces] .layout-main-section {
     /* background-color: #fdfbfb !important; */
 }
-.widget{
+
+.widget {
     /* box-shadow: 1px 1px 1px 1px #d9d2d2 !important; */
 }
+
 .modal-header {
     background-color: #26475f !important;
 }
+
 .modal .modal-content {
     border-color: #26475f !important;
-    --text-color: #ffffff !important;
+    /* --text-color: #ffffff !important; */
 }
+
 .layout-side-section {
     background-image: url(/assets/vpstwo/images/left-site.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* .page-head-content {
     background-image: url(/assets/vpstwo/images/nav_top_bar.png) !important;
     border-bottom: 1px solid #353F6F;
@@ -103,57 +121,68 @@
     background-image: url(/assets/vpstwo/images/nav_top_bar.png) !important;
     box-shadow: 0 2px 2px 0 #353F6F;
 }
+
 .layout-main-section-wrapper {
     margin-top: 3px !important;
 }
+
 .desk-sidebar .standard-sidebar-label {
     color: #26475f !important;
 }
-.main-nav-drop-down{
+
+.main-nav-drop-down {
     background-color: #26475F !important;
 }
-.main-sub-nav{
+
+.main-sub-nav {
     font-weight: 700 !important;
     font-size: 16px !important;
     color: white !important;
     padding: 12px !important;
 }
+
 .notification-list-header {
     /* background-color: #353F6F !important; */
     background-color: #26475F !important;
     margin: 0 -10px 0 -10px !important;
     --text-color: #ffffff !important;
 }
+
 .notifications-list .notification-item-tabs .notifications-category {
     color: #fbfdff !important;
     /* border-bottom: 1px solid #000000 !important; */
 }
-.nav{
+
+.nav {
     padding-left: 30px !important;
 }
+
 #navbar-breadcrumbs a:before {
-  content:url("data: image/svg+xml;utf8, <svg width='6' height='8' viewBox='0 0 6 8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1.25 7.5L4.75 4L1.25 0.5' stroke='white' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
-  display: inline-block !important;
-  margin-right: 10px !important;
+    content: url("data: image/svg+xml;utf8, <svg width='6' height='8' viewBox='0 0 6 8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1.25 7.5L4.75 4L1.25 0.5' stroke='white' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
+    display: inline-block !important;
+    margin-right: 10px !important;
 }
 
-.layout-side-section .sidebar-label {
+/* .layout-side-section .sidebar-label {
     color: #ffffff !important;
-}
+} */
 
-.sidebar-menu {
+/* .sidebar-menu {
     color: #ffffff !important;
-}
-.list-sidebar .sidebar-action {
+} */
+
+/* .list-sidebar .sidebar-action {
     color: #ffffff !important;
-}
+} */
 .grid-body .editable-row .form-control {
     --text-color: #000000 !important;
 }
+
 .frappe-control {
     --text-color: #000000 !important;
 }
-[data-page-route=Workspaces] .codex-editor .codex-editor__redactor .ce-block .ce-block__content .widget.spacer{
+
+[data-page-route=Workspaces] .codex-editor .codex-editor__redactor .ce-block .ce-block__content .widget.spacer {
     box-shadow: none !important;
     display: none !important;
 }
@@ -161,6 +190,7 @@
 .notifications-list .notification-list-header {
     height: 62px !important;
 }
+
 .notifications-list .notification-item-tabs .notifications-category.active {
     color: var(--text-color);
     border-bottom: 1px solid #ffffff;
@@ -168,34 +198,42 @@
     background-color: #000000;
     padding: 20px;
 }
-.notifications-list > .notification-list-header > .header-actions{
+
+.notifications-list>.notification-list-header>.header-actions {
     margin-right: 10px !important;
 
 }
-.notifications-list > .notification-list-header > .header-actions > .pull-right > .icon{
-    fill:#ffffff !important;
-    stroke:#ffffff !important;
+
+.notifications-list>.notification-list-header>.header-actions>.pull-right>.icon {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
 }
-.modal-actions > .btn-modal-close > .icon{
-    stroke:#ffffff !important;
-    fill:#ffffff !important;
+
+.modal-actions>.btn-modal-close>.icon {
+    stroke: #ffffff !important;
+    fill: #ffffff !important;
 }
-.shortcut-widget-box{
+
+.shortcut-widget-box {
     /* background-color: #1F2940 !important; */
     background-color: #26475F !important;
     /* height: 70% !important; */
 }
-.shortcut-widget-box > .widget-head > .widget-control >.indicator-pill.grey {
+
+.shortcut-widget-box>.widget-head>.widget-control>.indicator-pill.grey {
     background-color: #727987 !important;
     color: #ffffff !important;
 }
-.shortcut-widget-box > .widget-head > .widget-label > .widget-title {
+
+.shortcut-widget-box>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
+
 .page-container[data-page-route="pos"] {
     background-color: #ffffff !important;
-  } 
-.page-container[data-page-route="pos"] .text-center{
+}
+
+.page-container[data-page-route="pos"] .text-center {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -213,58 +251,71 @@
     border: 0 !important;
     border-top: none !important;
 }
-[data-title="Public"] > .standard-sidebar-label > span > svg.icon{
-    fill : #ffffff !important;
+
+[data-title="Public"]>.standard-sidebar-label>span>svg.icon {
+    fill: #ffffff !important;
 }
+
 [data-page-route=Workspaces] .dropdown-list .dropdown-item {
     cursor: pointer;
     padding: 6px 10px;
     font-size: small;
     border-radius: var(--border-radius-sm);
     margin: 1px 0;
-    color:#000000 !important;
+    color: #000000 !important;
 }
-[data-page-route="dashboard-view"] > .page-body{
+
+[data-page-route="dashboard-view"]>.page-body {
     padding-top: 10px !important;
 }
-[data-widget-name="Annual Sales"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+
+[data-widget-name="Annual Sales"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Annual Sales"].widget{
+
+[data-widget-name="Annual Sales"].widget {
     padding-left: 0px !important;
-    background-image: linear-gradient(45deg,rgb(36 48 97) ,rgb(131 142 193 / 50%)) !important;
+    background-image: linear-gradient(45deg, rgb(36 48 97), rgb(131 142 193 / 50%)) !important;
 }
-[data-widget-name="Annual Sales"] > .widget-head{
+
+[data-widget-name="Annual Sales"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Annual Sales"] > .widget-body{
+
+[data-widget-name="Annual Sales"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Annual Sales"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Annual Sales"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Annual Sales"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Annual Sales"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Annual Sales"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Annual Sales"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Annual Sales"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Annual Sales"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Annual Sales"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Annual Sales"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Annual Sales"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
 
-[data-widget-name="Annual Sales"] > .widget-footer {
+[data-widget-name="Annual Sales"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -276,43 +327,53 @@
     background-size: cover;
 }
 
-[data-widget-name="Sales order to Submit"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Sales order to Submit"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Sales order to Submit"].widget{
+
+[data-widget-name="Sales order to Submit"].widget {
     padding-left: 0px !important;
     background: linear-gradient(45deg, #f93a5a, #f7778c) !important;
 
 }
-[data-widget-name="Sales order to Submit"] > .widget-head{
+
+[data-widget-name="Sales order to Submit"]>.widget-head {
     padding-left: 14px !important;
-}
-[data-widget-name="Sales order to Submit"] > .widget-body{
-    padding-left: 14px !important;
-}
-[data-widget-name="Sales order to Submit"] > .widget-head > .widget-label > .widget-title{ 
-    color: #ffffff !important;
-}
-[data-widget-name="Sales order to Submit"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
-    color: #ffffff !important;
-}
-[data-widget-name="Sales order to Submit"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
-}
-[data-widget-name="Sales order to Submit"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
-}
-[data-widget-name="Sales order to Submit"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
 }
 
-[data-widget-name="Sales order to Submit"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Sales order to Submit"]>.widget-body {
+    padding-left: 14px !important;
 }
-[data-widget-name="Sales order to Submit"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Sales order to Submit"]>.widget-head>.widget-label>.widget-title {
+    color: #ffffff !important;
 }
-[data-widget-name="Sales order to Submit"] > .widget-footer{
+
+[data-widget-name="Sales order to Submit"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
+    color: #ffffff !important;
+}
+
+[data-widget-name="Sales order to Submit"] .widget-body .widget-content .number {
+    color: #ffffff !important;
+}
+
+[data-widget-name="Sales order to Submit"] .widget-body .widget-content .grey-stat {
+    color: #ffffff !important;
+}
+
+[data-widget-name="Sales order to Submit"] .widget-body .widget-content .green-stat {
+    color: #ffffff !important;
+}
+
+[data-widget-name="Sales order to Submit"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
+}
+
+[data-widget-name="Sales order to Submit"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
+}
+
+[data-widget-name="Sales order to Submit"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -325,44 +386,53 @@
 }
 
 
-[data-widget-name="GDN"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="GDN"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="GDN"].widget{
+
+[data-widget-name="GDN"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
 
 }
-[data-widget-name="GDN"] > .widget-head{
+
+[data-widget-name="GDN"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="GDN"] > .widget-body{
+
+[data-widget-name="GDN"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="GDN"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="GDN"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="GDN"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="GDN"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="GDN"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="GDN"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="GDN"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="GDN"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="GDN"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="GDN"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="GDN"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="GDN"] > .widget-footer{
+[data-widget-name="GDN"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -376,45 +446,53 @@
 
 
 
-[data-widget-name="Active Customer"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Active Customer"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Active Customer"].widget{
+
+[data-widget-name="Active Customer"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #efa65f, #f76a2d) !important;
 
 }
-[data-widget-name="Active Customer"] > .widget-head{
+
+[data-widget-name="Active Customer"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Active Customer"] > .widget-body{
+
+[data-widget-name="Active Customer"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Active Customer"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Active Customer"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Active Customer"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Active Customer"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Active Customer"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
 [data-widget-name="Active Customer"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Active Customer"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Active Customer"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Active Customer"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Active Customer"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Active Customer"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Active Customer"] > .widget-footer{
+[data-widget-name="Active Customer"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -428,44 +506,53 @@
 
 /* dashboard 2 */
 
-[data-widget-name="Draft-1"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Draft-1"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Draft-1"].widget{
+
+[data-widget-name="Draft-1"].widget {
     padding-left: 0px !important;
-    background-image: linear-gradient(45deg,rgb(36 48 97) ,rgb(131 142 193 / 50%)) !important;
+    background-image: linear-gradient(45deg, rgb(36 48 97), rgb(131 142 193 / 50%)) !important;
 }
-[data-widget-name="Draft-1"] > .widget-head{
+
+[data-widget-name="Draft-1"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Draft-1"] > .widget-body{
+
+[data-widget-name="Draft-1"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Draft-1"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Draft-1"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Draft-1"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Draft-1"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Draft-1"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Draft-1"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Draft-1"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Draft-1"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Draft-1"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Draft-1"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Draft-1"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
 
-[data-widget-name="Draft-1"] > .widget-footer{
+[data-widget-name="Draft-1"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -477,51 +564,61 @@
     background-size: cover;
 }
 
-[data-widget-name="Pending."] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Pending."] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Pending."].widget{
+
+[data-widget-name="Pending."].widget {
     padding-left: 0px !important;
     background: linear-gradient(45deg, #f93a5a, #f7778c) !important;
 
 }
-[data-widget-name="Pending."] > .widget-head{
+
+[data-widget-name="Pending."]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Pending."] > .widget-body{
+
+[data-widget-name="Pending."]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Pending."] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Pending."]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Pending."] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Pending."]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Pending."] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Pending."] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Pending."] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Pending."] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Pending."] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
-[data-widget-name="Pending."] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Pending."] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Pending."] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Pending."] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Pending."] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Pending."] > .widget-footer{
+[data-widget-name="Pending."]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -534,44 +631,53 @@
 }
 
 
-[data-widget-name="In Process."] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="In Process."] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="In Process."].widget{
+
+[data-widget-name="In Process."].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
 
 }
-[data-widget-name="In Process."] > .widget-head{
+
+[data-widget-name="In Process."]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="In Process."] > .widget-body{
+
+[data-widget-name="In Process."]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="In Process."] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="In Process."]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="In Process."] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="In Process."]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="In Process."] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="In Process."] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="In Process."] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="In Process."] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="In Process."] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="In Process."] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="In Process."] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="In Process."] > .widget-footer{
+[data-widget-name="In Process."]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -585,45 +691,53 @@
 
 
 
-[data-widget-name="Rework."] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Rework."] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Rework."].widget{
+
+[data-widget-name="Rework."].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #efa65f, #f76a2d) !important;
 
 }
-[data-widget-name="Rework."] > .widget-head{
+
+[data-widget-name="Rework."]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Rework."] > .widget-body{
+
+[data-widget-name="Rework."]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Rework."] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Rework."]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Rework."] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Rework."]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Rework."] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
 [data-widget-name="Rework."] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Rework."] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Rework."] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Rework."] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Rework."] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Rework."] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Rework."] > .widget-footer{
+[data-widget-name="Rework."]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -638,44 +752,53 @@
 
 /* dashboard 3 */
 
-[data-widget-name="Total Outgoing Bills"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Total Outgoing Bills"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Total Outgoing Bills"].widget{
+
+[data-widget-name="Total Outgoing Bills"].widget {
     padding-left: 0px !important;
-    background-image: linear-gradient(45deg,rgb(36 48 97) ,rgb(131 142 193 / 50%)) !important;
+    background-image: linear-gradient(45deg, rgb(36 48 97), rgb(131 142 193 / 50%)) !important;
 }
-[data-widget-name="Total Outgoing Bills"] > .widget-head{
+
+[data-widget-name="Total Outgoing Bills"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Outgoing Bills"] > .widget-body{
+
+[data-widget-name="Total Outgoing Bills"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Outgoing Bills"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Total Outgoing Bills"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Total Outgoing Bills"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Total Outgoing Bills"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Outgoing Bills"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
 
-[data-widget-name="Total Outgoing Bills"] > .widget-footer{
+[data-widget-name="Total Outgoing Bills"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -687,51 +810,61 @@
     background-size: cover;
 }
 
-[data-widget-name="Total Incoming Bills"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Total Incoming Bills"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Total Incoming Bills"].widget{
+
+[data-widget-name="Total Incoming Bills"].widget {
     padding-left: 0px !important;
     background: linear-gradient(45deg, #f93a5a, #f7778c) !important;
 
 }
-[data-widget-name="Total Incoming Bills"] > .widget-head{
+
+[data-widget-name="Total Incoming Bills"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Incoming Bills"] > .widget-body{
+
+[data-widget-name="Total Incoming Bills"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Incoming Bills"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Total Incoming Bills"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Total Incoming Bills"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Total Incoming Bills"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Total Incoming Bills"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Incoming Bills"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Incoming Bills"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Incoming Bills"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Incoming Bills"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
-[data-widget-name="Total Incoming Bills"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Total Incoming Bills"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Incoming Bills"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Incoming Bills"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Incoming Bills"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Incoming Bills"] > .widget-footer{
+[data-widget-name="Total Incoming Bills"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -744,44 +877,53 @@
 }
 
 
-[data-widget-name="Receivable"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Receivable"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Receivable"].widget{
+
+[data-widget-name="Receivable"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
 
 }
-[data-widget-name="Receivable"] > .widget-head{
+
+[data-widget-name="Receivable"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Receivable"] > .widget-body{
+
+[data-widget-name="Receivable"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Receivable"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Receivable"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Receivable"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Receivable"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Receivable"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Receivable"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Receivable"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Receivable"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Receivable"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Receivable"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Receivable"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Receivable"] > .widget-footer{
+[data-widget-name="Receivable"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -795,45 +937,53 @@
 
 
 
-[data-widget-name="Payable"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Payable"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Payable"].widget{
+
+[data-widget-name="Payable"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #efa65f, #f76a2d) !important;
 
 }
-[data-widget-name="Payable"] > .widget-head{
+
+[data-widget-name="Payable"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Payable"] > .widget-body{
+
+[data-widget-name="Payable"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Payable"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Payable"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Payable"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Payable"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Payable"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
 [data-widget-name="Payable"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Payable"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Payable"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Payable"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Payable"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Payable"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Payable"] > .widget-footer{
+[data-widget-name="Payable"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -847,44 +997,53 @@
 
 /* dashboard 4 */
 
-[data-widget-name="Annual Purchase"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Annual Purchase"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Annual Purchase"].widget{
+
+[data-widget-name="Annual Purchase"].widget {
     padding-left: 0px !important;
-    background-image: linear-gradient(45deg,rgb(36 48 97) ,rgb(131 142 193 / 50%)) !important;
+    background-image: linear-gradient(45deg, rgb(36 48 97), rgb(131 142 193 / 50%)) !important;
 }
-[data-widget-name="Annual Purchase"] > .widget-head{
+
+[data-widget-name="Annual Purchase"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Annual Purchase"] > .widget-body{
+
+[data-widget-name="Annual Purchase"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Annual Purchase"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Annual Purchase"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Annual Purchase"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Annual Purchase"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Annual Purchase"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Annual Purchase"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Annual Purchase"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Annual Purchase"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Annual Purchase"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Annual Purchase"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Annual Purchase"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
 
-[data-widget-name="Annual Purchase"] > .widget-footer{
+[data-widget-name="Annual Purchase"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -896,51 +1055,61 @@
     background-size: cover;
 }
 
-[data-widget-name="Purchase order to Submit"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Purchase order to Submit"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Purchase order to Submit"].widget{
+
+[data-widget-name="Purchase order to Submit"].widget {
     padding-left: 0px !important;
     background: linear-gradient(45deg, #f93a5a, #f7778c) !important;
 
 }
-[data-widget-name="Purchase order to Submit"] > .widget-head{
+
+[data-widget-name="Purchase order to Submit"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Purchase order to Submit"] > .widget-body{
+
+[data-widget-name="Purchase order to Submit"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Purchase order to Submit"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Purchase order to Submit"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Purchase order to Submit"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Purchase order to Submit"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Purchase order to Submit"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Purchase order to Submit"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Purchase order to Submit"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Purchase order to Submit"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Purchase order to Submit"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
-[data-widget-name="Purchase order to Submit"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Purchase order to Submit"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Purchase order to Submit"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Purchase order to Submit"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Purchase order to Submit"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Purchase order to Submit"] > .widget-footer{
+[data-widget-name="Purchase order to Submit"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -953,44 +1122,53 @@
 }
 
 
-[data-widget-name="GRN to Submit"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="GRN to Submit"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="GRN to Submit"].widget{
+
+[data-widget-name="GRN to Submit"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
 
 }
-[data-widget-name="GRN to Submit"] > .widget-head{
+
+[data-widget-name="GRN to Submit"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="GRN to Submit"] > .widget-body{
+
+[data-widget-name="GRN to Submit"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="GRN to Submit"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="GRN to Submit"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="GRN to Submit"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="GRN to Submit"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="GRN to Submit"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="GRN to Submit"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="GRN to Submit"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="GRN to Submit"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="GRN to Submit"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="GRN to Submit"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="GRN to Submit"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="GRN to Submit"] > .widget-footer{
+[data-widget-name="GRN to Submit"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1004,45 +1182,53 @@
 
 
 
-[data-widget-name="Active Supplier"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Active Supplier"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Active Supplier"].widget{
+
+[data-widget-name="Active Supplier"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #efa65f, #f76a2d) !important;
 
 }
-[data-widget-name="Active Supplier"] > .widget-head{
+
+[data-widget-name="Active Supplier"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Active Supplier"] > .widget-body{
+
+[data-widget-name="Active Supplier"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Active Supplier"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Active Supplier"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Active Supplier"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Active Supplier"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Active Supplier"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
 [data-widget-name="Active Supplier"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Active Supplier"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Active Supplier"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Active Supplier"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Active Supplier"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Active Supplier"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Active Supplier"] > .widget-footer{
+[data-widget-name="Active Supplier"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1056,44 +1242,53 @@
 
 /* dashboard 5 */
 
-[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"].widget{
+
+[data-widget-name="Total Count (Sales Invoice)"].widget {
     padding-left: 0px !important;
-    background-image: linear-gradient(45deg,rgb(36 48 97) ,rgb(131 142 193 / 50%)) !important;
+    background-image: linear-gradient(45deg, rgb(36 48 97), rgb(131 142 193 / 50%)) !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-head{
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-body{
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
 
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-footer{
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1105,51 +1300,61 @@
     background-size: cover;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"].widget{
+
+[data-widget-name="Total Count (Purchase Invoice)"].widget {
     padding-left: 0px !important;
     background: linear-gradient(45deg, #f93a5a, #f7778c) !important;
 
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-head{
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-body{
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-footer{
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1162,44 +1367,53 @@
 }
 
 
-[data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)"].widget{
+
+[data-widget-name="QC1 Pending (Purchase Invoice)"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
 
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)"] > .widget-head{
+
+[data-widget-name="QC1 Pending (Purchase Invoice)"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)"] > .widget-body{
+
+[data-widget-name="QC1 Pending (Purchase Invoice)"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="QC1 Pending (Purchase Invoice)"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="QC1 Pending (Purchase Invoice)"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="QC1 Pending (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC1 Pending (Purchase Invoice)"] > .widget-footer{
+[data-widget-name="QC1 Pending (Purchase Invoice)"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1213,45 +1427,53 @@
 
 
 
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"].widget{
+
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #efa65f, #f76a2d) !important;
 
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] > .widget-head{
+
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] > .widget-body{
+
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
 [data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC1 Pending (Purchase Invoice)-1"] > .widget-footer{
+[data-widget-name="QC1 Pending (Purchase Invoice)-1"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1262,46 +1484,56 @@
     vertical-align: top;
     background-size: cover;
 }
+
 /* dashboard 6 */
 
-[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"].widget{
+
+[data-widget-name="Total Count (Sales Invoice)"].widget {
     padding-left: 0px !important;
-    background-image: linear-gradient(45deg,rgb(36 48 97) ,rgb(131 142 193 / 50%)) !important;
+    background-image: linear-gradient(45deg, rgb(36 48 97), rgb(131 142 193 / 50%)) !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-head{
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-body{
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Count (Sales Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
 
-[data-widget-name="Total Count (Sales Invoice)"] > .widget-footer{
+[data-widget-name="Total Count (Sales Invoice)"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1313,51 +1545,61 @@
     background-size: cover;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"].widget{
+
+[data-widget-name="Total Count (Purchase Invoice)"].widget {
     padding-left: 0px !important;
     background: linear-gradient(45deg, #f93a5a, #f7778c) !important;
 
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-head{
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-body{
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="Total Count (Purchase Invoice)"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="Total Count (Purchase Invoice)"] > .widget-footer{
+[data-widget-name="Total Count (Purchase Invoice)"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1370,44 +1612,53 @@
 }
 
 
-[data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="QC2 Pending For Purchase"].widget{
+
+[data-widget-name="QC2 Pending For Purchase"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
 
 }
-[data-widget-name="QC2 Pending For Purchase"] > .widget-head{
+
+[data-widget-name="QC2 Pending For Purchase"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="QC2 Pending For Purchase"] > .widget-body{
+
+[data-widget-name="QC2 Pending For Purchase"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="QC2 Pending For Purchase"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="QC2 Pending For Purchase"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="QC2 Pending For Purchase"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="QC2 Pending For Purchase"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
+
 [data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="QC2 Pending For Purchase"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC2 Pending For Purchase"] > .widget-footer{
+[data-widget-name="QC2 Pending For Purchase"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1421,45 +1672,53 @@
 
 
 
-[data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content{
-    padding-top: 0px !important; 
+[data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content {
+    padding-top: 0px !important;
 }
-[data-widget-name="QC2 Pending For Sales"].widget{
+
+[data-widget-name="QC2 Pending For Sales"].widget {
     padding-left: 0px !important;
     background: linear-gradient(to left, #efa65f, #f76a2d) !important;
 
 }
-[data-widget-name="QC2 Pending For Sales"] > .widget-head{
+
+[data-widget-name="QC2 Pending For Sales"]>.widget-head {
     padding-left: 14px !important;
 }
-[data-widget-name="QC2 Pending For Sales"] > .widget-body{
+
+[data-widget-name="QC2 Pending For Sales"]>.widget-body {
     padding-left: 14px !important;
 }
-[data-widget-name="QC2 Pending For Sales"] > .widget-head > .widget-label > .widget-title{ 
+
+[data-widget-name="QC2 Pending For Sales"]>.widget-head>.widget-label>.widget-title {
     color: #ffffff !important;
 }
-[data-widget-name="QC2 Pending For Sales"] > .widget-head > .widget-label > .widget-title > .widget-subtitle{ 
+
+[data-widget-name="QC2 Pending For Sales"]>.widget-head>.widget-label>.widget-title>.widget-subtitle {
     color: #ffffff !important;
 }
+
 [data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .number {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
 [data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .grey-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
-[data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .grey-stat .text-muted{
-    color:#ffffff !important; 
+
+[data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .grey-stat .text-muted {
+    color: #ffffff !important;
 }
+
 [data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .green-stat {
-    color:#ffffff !important; 
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .green-stat .text-muted{
-    color:#ffffff !important; 
+[data-widget-name="QC2 Pending For Sales"] .widget-body .widget-content .green-stat .text-muted {
+    color: #ffffff !important;
 }
 
-[data-widget-name="QC2 Pending For Sales"] > .widget-footer{
+[data-widget-name="QC2 Pending For Sales"]>.widget-footer {
     background-image: url(/assets/vpstwo/images/def.png) !important;
     position: relative;
     bottom: -1px;
@@ -1471,16 +1730,19 @@
     background-size: cover;
 }
 
-.like-disabled-input{
+.like-disabled-input {
     background-color: #ffffff !important;
 }
-#navbar-breadcrumbs li.disabled a{
+
+#navbar-breadcrumbs li.disabled a {
     color: #ffffff !important;
 }
 
 
 
-.btn.btn-primary, div#driver-popover-item .driver-popover-footer button.btn-primary, div#driver-popover-item .driver-popover-footer button.driver-next-btn {
+.btn.btn-primary,
+div#driver-popover-item .driver-popover-footer button.btn-primary,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn {
     /* background-color: var(--primary); */
     background-color: #26475f;
     color: var(--white);
@@ -1495,4 +1757,21 @@
 
 .dropdown-help {
     display: none !important;
+}
+
+
+.modal-title {
+    margin-bottom: 0;
+    /* line-height: 1.5; */
+    color: #fff;
+}
+
+.modal-actions .icon-sm use.close-alt,
+.modal-actions .icon-sm use {
+    --icon-stroke: #ffffff;
+    /* set the value of --icon-stroke to white */
+}
+
+.layout-side-section .sidebar-label {
+    color: #000 !important;
 }
