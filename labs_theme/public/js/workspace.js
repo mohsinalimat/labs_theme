@@ -1,5 +1,6 @@
 $(document).ready( () => {
     // console.log('jquery Workspace page fully loaded!');
+    removeHelpMenu();
     removeMenuItems();
 } )
 
@@ -7,6 +8,14 @@ $(document).ready( () => {
 function workspaceLoaded() {
     // your function code here
     console.log('workspace is loaded....');
+}
+
+function removeHelpMenu(){
+    const helpMenu = document.querySelector('.dropdown-help')
+    if (helpMenu) {
+        helpMenu.remove();
+    }
+
 }
 
 function removeMenuItems() {
@@ -31,6 +40,12 @@ function removeMenuItems() {
     if (toggleFullItem) {
         toggleFullItem.remove();
     }    
+
+    // Find the "View Website" item by its text content and remove it
+    var viewWebsiteItem = Array.from(links).find((a) => a.innerText.trim() === 'View Website');
+    if (viewWebsiteItem) {
+        viewWebsiteItem.remove();
+    }        
 }
 
 

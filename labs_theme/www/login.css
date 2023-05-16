@@ -1,0 +1,23 @@
+.page-login{
+    background-color: #ecf0fa;
+}
+
+footer.web-footer{
+    display: none;
+}
+
+nav.navbar{
+    background-color: #26475F;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+a.nav-link.btn-login-area{
+    color: #fff !important;   
+}
+
+.btn-login{
+    background-color: #26475F !important;
+}
