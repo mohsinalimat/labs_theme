@@ -15,7 +15,7 @@ app_license = "MIT"
 # app_include_js = "/assets/labs_theme/js/labs_theme.js"
 
 app_include_css = ["/assets/labs_theme/css/workspace.css"]
-app_include_js = ["/assets/labs_theme/css/login.css, /assets/labs_theme/js/workspace.js"]
+app_include_js = ["/assets/labs_theme/js/workspace.js"]
 
 
 # include js, css files in header of web template
@@ -44,7 +44,7 @@ app_include_js = ["/assets/labs_theme/css/login.css, /assets/labs_theme/js/works
 # ----------
 
 # application home page (will override Website Settings)
-home_page = "login"
+# home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {
